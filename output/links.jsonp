@@ -1,0 +1,33 @@
+callback([
+
+  {
+    "text": "Theme Elements",
+    "href": "http://samarashuttlecr.com/articles/theme-elements"
+  } ,
+
+  {
+    "text": "Testing Readability with a Bunch of Text",
+    "href": "http://samarashuttlecr.com/articles/readability-post"
+  } ,
+
+  {
+    "text": "Post with Cover Image and Text",
+    "href": "http://samarashuttlecr.com/theme/readability-feature-post"
+  } ,
+
+  {
+    "text": "Documentation",
+    "href": "http://samarashuttlecr.com/theme/documentation"
+  } ,
+
+  {
+    "text": "Introducing Notepad",
+    "href": "http://samarashuttlecr.com/personal/introducing-notepad"
+  } ,
+
+  {
+    "text": "Why Jekyll?",
+    "href": "http://samarashuttlecr.com/webdevelopment/why-jekyll"
+  } 
+
+])
