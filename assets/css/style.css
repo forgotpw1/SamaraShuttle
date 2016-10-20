@@ -16,6 +16,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
 
+  
+
 .notepad-parallax-background {
   position: fixed;
   top: 0;
@@ -1068,3 +1070,15 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+.logo-area-callout {
+  background: #E51843;
+  display: inline-block; 
+  padding: 10px 15px;
+  height: 80px;
+}
+.logo-area-callout  a { 
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
