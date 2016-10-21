@@ -1080,5 +1080,26 @@ img.mfp-img {
     font-size: 48px;
     color: #fff;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 760px) {
+  .notepad-blog-menu { display: none; }
+  .logo-area-callout {
+    background: #E51843;
+    display: inline-block; 
+    padding: 10px 15px;
+    height: 40px;
+    float: left;
+    width: 100%;
+    text-align: center;
   }
+  
+  .logo-area-callout  a { 
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+
+
 }
