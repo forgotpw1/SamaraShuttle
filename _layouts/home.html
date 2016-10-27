@@ -28,7 +28,7 @@
 </div>
         <div class="clearfix"></div>
     </div>
-    <div class="notepad-site-head-content" >
+    <div class="notepad-site-head-content" data-controller="RateCalculatorController">
         <div class="notepad-site-head-bg"></div>
         <h1 class="notepad-blog-title">
             <span class="notepad-site-head-title-bg">
@@ -44,9 +44,9 @@
           <select name="end">
             <option value="audi">San Jose</option>
           </select>		
-          <label>Date:</label><span class="ride-date">Friday, December 10 2016</span>
-	  <label>Travelers:</label>><span class="ride-travelers-change"> - </span><span class="ride-travelers">4</span><span class="ride-travelers-change"> + </span>
-          <label>Price:</label><span class="ride-price">$61</span>
+          <label>Date:</label><input class="ride-date" data-controller="DateSelectorController" type="text" id="datepicker" />
+	  <label>Travelers:</label><span class="ride-travelers-change" data-bind="click: countDown"> - </span><span class="ride-travelers" data-bind="text: travelerCount"></span><span class="ride-travelers-change" data-bind="click: countUp"> + </span>
+          <label>Price:</label><span class="ride-price" data-bind="text: rate"></span>
 	  <br />
           <button style="padding-top: 10px">Reserve Now</button>
 	</div>

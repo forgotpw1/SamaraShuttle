@@ -1114,8 +1114,9 @@ img.mfp-img {
   font-size: 1.8em;
 }
 
-.ride-calculator select {
-  width: 50%;
+.ride-calculator select, .ride-calculator input {
+  width: 30%;
+  margin: 0px auto;
 }
 .ride-price, .ride-travelers, .ride-travelers-change, .ride-date { 
   color: #fff;
