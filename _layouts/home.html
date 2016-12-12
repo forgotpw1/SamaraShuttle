@@ -37,14 +37,11 @@
         </h1>
 	<div class="ride-calculator row" id="ride-calculator">
           <label>Depart:</label>
-          <select name="start">
-            <option value="volvo">Sámara</option>
+          <select data-bind="options: departData, value: departFrom">
           </select>		
           <label>Arrive:</label>
-          <select name="end">
-            <option value="audi">San Jose</option>
-          </select>		
-          <label>Date:</label><input class="ride-date" data-controller="DateSelectorController" type="text" id="datepicker" />
+          <select data-bind="options: $root.arrivalData, value: arriveAt"></select>		
+	  <!--           <label>Date:</label><input class="ride-date" data-controller="DateSelectorController" type="text" id="datepicker" /> -->
 	  <label>Travelers:</label><span class="ride-travelers-change" data-bind="click: countDown"> - </span><span class="ride-travelers" data-bind="text: travelerCount"></span><span class="ride-travelers-change" data-bind="click: countUp"> + </span>
           <label>Price:</label><span class="ride-price" data-bind="text: rate"></span>
 	  <br />

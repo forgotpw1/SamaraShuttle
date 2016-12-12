@@ -32,10 +32,10 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Contact
-    url: /
-    external: true
+    url: /contact.html
+    external: false
   - title: Reserve
-    url: /reserve
+    url: /reserve.html
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Dhaka
