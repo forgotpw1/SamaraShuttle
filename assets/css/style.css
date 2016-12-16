@@ -1127,3 +1127,9 @@ img.mfp-img {
 .ride-price, .ride-travelers, .ride-date { 
   text-decoration: underline;
 }
+.more-info {
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.phone{ font-size: 1.5em; color: #ffffff; padding-bottom: 4px;}
