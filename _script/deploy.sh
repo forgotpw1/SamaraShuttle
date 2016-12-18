@@ -5,7 +5,7 @@ SOURCE_BRANCH="gh-pages"
 TARGET_BRANCH="master"
 
 function doCompile {
-  _script/cibuild
+ jekyll build 
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
