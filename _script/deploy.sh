@@ -15,5 +15,5 @@ if [ $TRAVIS_BRANCH == 'gh-pages' ] ; then
     git commit -m "Deploy"
     git push --force deploy gh-pages
 else
-    echo "Not deploying, since this branch isn't master."
+    echo "Not deploying, since this branch isn't gh-pages."
 fi
