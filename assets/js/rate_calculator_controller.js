@@ -46,16 +46,16 @@
 	  depart: "Jacó",
 	  destinationRates: [
 	    ["Arenal", "250"],
-	    ["Liberia Airport", "250"],
-	    ["Montezuma", "235"],
-	    ["Monteverde", "220"],
+	    ["Liberia Airport", "280"],
+	    ["Montezuma", "280"],
+	    ["Monteverde", "245"],
 	    ["Nosara", "220"],
 	    ["Playa Sámara", "220"],
-	    ["Playa Conchal", "250"],
-	    ["Playa Del Coco", "250"],
-	    ["Playa Flamingo", "250"],
-	    ["Santa Teresa", "235"],
-	    ["Tamarindo", "250"],
+	    ["Playa Conchal", "280"],
+	    ["Playa Del Coco", "280"],
+	    ["Playa Flamingo", "280"],
+	    ["Santa Teresa", "280"],
+	    ["Tamarindo", "280"],
 	  ] 
 	},
         {
@@ -73,17 +73,17 @@
 	    ["Playa Flamingo", "105"],
 	    ["San José Airport", "280"],
 	    ["Santa Teresa", "260"],
-	    ["Tamarindo", "105"]
+	    ["Tamarindo", "115"]
 	  ] 
 	},
         {
 	  depart: "Monteverde",
 	  destinationRates: [
 	    ["Alajuela Airport", "270"],
-	    ["Jacó", "220"],
+	    ["Jacó", "280"],
 	    ["Liberia Airport", "250"],
 	    ["Montezuma", "240"],
-	    ["Nosara", "180"],
+	    ["Nosara", "215"],
 	    ["Playa Sámara", "175"],
 	    ["Playa Conchal", "180"],
 	    ["Playa Del Coco", "180"],
@@ -119,8 +119,8 @@
 	    ["Jacó", "220"],
 	    ["Liberia Airport", "120"],
 	    ["Limón", "312"],
-	    ["Montezuma", "192"],
-	    ["Monteverde", "167"],
+	    ["Montezuma", "215"],
+	    ["Monteverde", "175"],
 	    ["Nosara", "60"],
 	    ["Playa Conchal", "120"],
 	    ["Playa Del Coco", "120"],
@@ -134,7 +134,7 @@
 	  depart: "Playa Conchal",
 	  destinationRates: [
 	    ["Arenal", "280"],
-	    ["Jacó", "250"],
+	    ["Jacó", "280"],
 	    ["Liberia Airport", "105"],
 	    ["Montezuma", "280"],
 	    ["Monteverde", "270"],
@@ -150,7 +150,7 @@
 	  depart: "Playa Del Coco", 
 	  destinationRates: [
 	    ["Arenal", "280"],
-	    ["Jacó", "250"],
+	    ["Jacó", "280"],
 	    ["Liberia Airport", "105"],
 	    ["Montezuma", "280"],
 	    ["Monteverde", "270"],
@@ -166,7 +166,7 @@
 	  depart: "Playa Flamingo", 
 	  destinationRates: [
 	    ["Arenal", "280"],
-	    ["Jacó", "250"],
+	    ["Jacó", "280"],
 	    ["Liberia Airport", "105"],
 	    ["Montezuma", "280"],
 	    ["Monteverde", "270"],
@@ -182,8 +182,8 @@
 	  depart: "Tamarindo",
 	  destinationRates: [
 	    ["Arenal", "280"],
-	    ["Jacó", "250"],
-	    ["Liberia Airport", "105"],
+	    ["Jacó", "280"],
+	    ["Liberia Airport", "115"],
 	    ["Montezuma", "280"],
 	    ["Monteverde", "270"],
 	    ["Nosara", "145"],
@@ -198,7 +198,7 @@
 	  depart: "Santa Teresa",
 	  destinationRates: [
 	    ["Arenal", "280"],
-	    ["Jacó", "235"],
+	    ["Jacó", "280"],
 	    ["Liberia Airport", "260"],
 	    ["Monteverde", "240"],
 	    ["Nosara", "225"],
