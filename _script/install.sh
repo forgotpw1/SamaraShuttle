@@ -6,7 +6,8 @@ openssl aes-256-cbc -K $encrypted_977fcf01f74f_key -iv $encrypted_977fcf01f74f_i
 rm travis_deploy.enc # Don't need it anymore
 chmod 600 travis_deploy
 mv travis_deploy ~/.ssh/id_rsa
-    
+ls ~/.ssh
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub    
 # Install zopfli
 #git clone https://code.google.com/p/zopfli/
 #cd zopfli
