@@ -10,7 +10,10 @@ chmod 600 travis_deploy
 echo "Host samarashuttle.cr" >> ~/.ssh/config
 echo "  IdentityFile ~/.ssh/travis_deploy" >> ~/.ssh/config
 mv travis_deploy ~/.ssh/travis_deploy
+cat ~/.ssh/travis_deploy
 ssh-keygen -y -f ~/.ssh/travis_deploy  -P "" > ~/.ssh/travis_deploy.pub    
+sed '$s/$/ travis_deploy@samarashuttle.cr/' ~/.ssh/travis_deploy.pub > ~/.ssh/travis_deploy.pub.temp  && mv -- ~/.ssh/travis_deploy.pub.temp ~/.ssh/travis_deploy.pub.temp
+cat ~/.ssh/travis_deploy.pub
 ls ~/.ssh
 # Install zopfli
 #git clone https://code.google.com/p/zopfli/
