@@ -9,7 +9,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - ENCRYPTION_LABEL=6a97e7e82599
 addons:
-  ssh_known_hosts: samarashuttle.cr
+  ssh_known_hosts: 146.185.156.190
 script:
 - bash _script/build.sh
 after_success:
