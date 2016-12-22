@@ -6,7 +6,7 @@ if [ $TRAVIS_BRANCH == 'gh-pages' ] ; then
     # Initialize a new git repo in _site, and push it to our server.
     cd _site
     git init
-    git remote add deploy "deploy@146.185.156.190:/home/deploy/SamaraShuttle"
+    git remote add deploy "deploy@samarashuttle.cr:/usr/share/nginx/html/samarashuttle.cr"
     git config user.name "travis_deploy@samarashuttle.cr"
     git config user.email "travis_deploy@samarashuttle.cr"
     
